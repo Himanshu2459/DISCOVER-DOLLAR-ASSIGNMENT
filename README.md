@@ -201,6 +201,7 @@ server {
 ✔ docker ps showing all containers
 ✔ Application UI running on browser
 ✔ Nginx configuration
+<img width="1656" height="950" alt="Screenshot (212)" src="https://github.com/user-attachments/assets/5c515b8f-1a1c-4019-97d3-1a3edcb0a7ae" />
 
 ✅ Final Verification Checklist
 
