@@ -211,6 +211,7 @@ server {
  CI/CD pipeline runs successfully
 
  MongoDB persists data via volume
+<img width="1304" height="971" alt="Screenshot (211)" src="https://github.com/user-attachments/assets/896164a9-2402-4b64-a5ee-2bfd356852d5" />
 
 🛑 Important Note
 
