@@ -45,5 +45,6 @@ jobs:
             echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
             cd /home/${{ secrets.EC2_USER }}/app
             export DOCKERHUB_USERNAME=${{ secrets.DOCKERHUB_USERNAME }}
-            docker-compose pull
-            docker-compose up -d
+            docker compose -f docker-compose.yaml pull
+            docker compose -f docker-compose.yaml up -d
+
