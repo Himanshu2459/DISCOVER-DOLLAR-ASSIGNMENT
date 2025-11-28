@@ -11,7 +11,7 @@ services:
       - "27017:27017"
 
   backend:
-    image: dd-backend:latest
+    image: himanshu2459/dd-backend:latest
     container_name: backend
     restart: always
     depends_on:
@@ -23,7 +23,7 @@ services:
       - "5000:5000"
 
   frontend:
-    image: dd-frontend:latest
+    image: himanshu2459/dd-frontend:latest
     container_name: frontend
     restart: always
     depends_on:
