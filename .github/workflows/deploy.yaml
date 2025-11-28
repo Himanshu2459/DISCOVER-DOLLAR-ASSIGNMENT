@@ -31,4 +31,4 @@ jobs:
           script: |
             cd /home/${{ secrets.EC2_USER }}/app
             docker-compose pull
-            docker-compose up -d --build
+            docker-compose up -d 

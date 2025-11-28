@@ -11,9 +11,6 @@ services:
       - "27017:27017"
 
   backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
     image: dd-backend:latest
     container_name: backend
     restart: always
@@ -26,9 +23,6 @@ services:
       - "5000:5000"
 
   frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
     image: dd-frontend:latest
     container_name: frontend
     restart: always
