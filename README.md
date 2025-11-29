@@ -138,7 +138,9 @@ sudo usermod -aG docker ubuntu
 Clone repo and deploy:
 
 git clone https://github.com/<your-username>/discoverdollar-devops-assignment.git
+
 cd discoverdollar-devops-assignment
+
 docker-compose up -d
 
 
